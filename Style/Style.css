@@ -1,0 +1,133 @@
+/* -----------------------------
+    
+        Default Values
+
+Font Unbuntu, Pasifico(only logo) , sand serif
+
+Colors:
+    1. Imperial Primel:          #222f3e;
+    2. Wild Caribien Green:      #1dd1a1;
+    3. Light Gray:               #fbfbfb;
+    4. Gray tone:                #7e7e7e;
+
+--------------------------------/;
+
+/*------------------------------
+        Basoc Setup
+--------------------------------*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: #ffff;
+}
+
+/*------------------------------
+            Header
+--------------------------------*/
+
+
+body {
+    background-color: #fbfbfb;
+}
+
+.page-header {
+    background-color: #222f3e;
+    color: #fbfbfb;
+    font-family: 'Pacifico', cursive;
+    padding-left: 70px;
+    
+}
+
+.page-header span {
+    margin-left: 5px;
+    color: #1dd1a1;
+}
+
+
+/*------------Nav Menu------------------*/
+
+
+.nav-menu {
+    padding: 10px 0 10px 120px;
+}
+
+.nav-menu a {
+    color: #7e7e7e;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.nav-menu a:hover {
+    color: #222f3e;
+    font-weight: 700;
+}
+
+.nav-menu li {
+    padding: 20px;
+}
+
+/*------------Header img------------------*/
+
+.header-image {
+    background-image: linear-gradient(rgba(40,0,0, 0.7),rgba(0,0,0, 0.7)) ,url(../Img/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fbfbfb;
+}
+
+.header-image h2 {
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 35px;
+    letter-spacing: 1.5px;
+}
+
+.header-image p {
+    font-size: 18px;
+    margin: 20px 170px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
