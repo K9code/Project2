@@ -13,7 +13,7 @@ Colors:
 --------------------------------/;
 
 /*------------------------------
-        Basoc Setup
+        Basic Setup
 --------------------------------*/
 
 * {
@@ -89,10 +89,10 @@ body {
 /*------------Header img------------------*/
 
 .header-image {
-    background-image: linear-gradient(rgba(40,0,0, 0.7),rgba(0,0,0, 0.7)) ,url(../Img/1.jpg);
+    background-image: linear-gradient(rgba(40,0,0, 0.5),rgba(0,0,0, 0.7)) ,url(../Img/1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center;
     height: 500px;
     display: flex;
     justify-content: center;
@@ -113,6 +113,127 @@ body {
     margin: 20px 170px;
     text-align: center;
 }
+
+/*------------------------------
+            Selection 
+           Jorney-Ways
+--------------------------------*/
+
+.jorney-ways {
+    width: 90%;
+    margin: auto;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    
+}
+
+.jorney-ways h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #222f3e;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.jorney-ways h2 span { 
+    color: #1dd1a1;
+    font-weight: 700;
+}
+
+#jorney-explain {
+    font-size: 20px;   
+    text-align: center;
+    margin-top: 15px;
+}
+
+.ways-to-travel {
+    display: flex;
+    text-align: center;
+}
+
+.ways-to-travel {
+    margin-top: 50px;
+}
+
+.ways-to-travel img {
+    height: 180px;
+    margin-bottom: 20px;
+}
+
+.ways-to-travel h3 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #222f3e;
+}
+
+.ways-to-travel p {
+    color: #222f3e;
+}
+
+.travel-way h3 span {
+    color: #1dd1a1;
+}
+
+.travel-way p {
+    margin-top: 10px;
+    color: #222f3e;
+    margin: 0px 20px;
+}
+
+.Airplane {
+    margin-top: 30px;
+}
+
+
+/*------------------------------
+            Selection 
+              Galary
+--------------------------------*/
+
+
+.city-images {
+    color: #222f3e;
+}
+
+.images-of-cities {
+    padding-top: 30px;
+    background-color: #1dd1a1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.city-image {
+    width: 29%;
+    margin-bottom: 25px;
+    background-color: #fbfbfb;
+}
+
+.city-image img {
+    width: 100%;
+}
+
+.city-image h3 {
+    padding: 15px;
+}
+
+.city-image p {
+    padding: 0 15px 10px 15px;
+}
+
+
+/*------------------------------
+            Footer
+--------------------------------*/
+
+
+footer{
+    background-color:  #222f3e;
+    color: #fff;
+    padding: 20px 70px;
+    
+}
+
 
 
 
